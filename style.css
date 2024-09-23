@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background: black;
+    color: #80ef80;
+}
+
+video {
+    background: black;
+    border: #80ef80 4px solid;
+    border-radius: 5px;
+}
+
+audio {
+    width: 750px;
+    border: #80ef80 4px solid;
+    border-radius: 5px;
+}
+
+canvas {
+    background: #666362;
+}
+
+circle {
+    color: red;
+}
