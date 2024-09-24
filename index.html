@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <title>title</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Multi-media demonstration</h1>
+    <h1>HTML Multi-Media Demonstration</h1>
     <h2>Video Element</h2>
     <video width="750" height="250" controls>
         <source src="raindropsvid.mp4" type="video/mp4">
@@ -21,12 +21,21 @@
     </audio>
     <h2>Inline Frame Element</h2>
     <iframe src="https://www.example.com" name="Example" height="400" width="750">
-        <p>Your browser does not support iframes.</p>
+    
     </iframe>
     <h2>Canvas Element</h2>
+    <svg width="250" height="150">
+        <rect width="250" height="150" fill="#666362"></rect>
+        <rect width="200" height="120" fill="#01909A"></rect>
+    </svg>
+
+
+    <!-- REQUIRES JS TO DRAW IN CANVAS??
     <canvas width="250" height="150">
+        <rect width="200" height="100" fill="blue"></rect>
     </canvas>
-    <rect width="200" height="100" style="fill: black"></rect>
+    -->
+
     <h2>SVG Element</h2>
     <svg width="200" height="100">
         <circle cx="100" cy="45" r="40" stroke="oooooo" stroke-width="2" fill="red"></circle>
@@ -42,6 +51,17 @@
     <svg width="200" height="200">
         <ellipse cx="100" cy="60" rx="100" ry="50" fill="lime"></ellipse>
     </svg>
+    <br>
+
+    <svg width="200" height="200">
+        <line x1="0" y1="0" x2="200" y2="75" style="stroke:grey; stroke-width: 2;"></line>
+    </svg>
+    <br>
+
+    <svg width="200" height="200">
+        <polygon points="10,75 100,0 190,75" style="fill: orange;"></polygon>
+    </svg>
+
 
 </body>
 
